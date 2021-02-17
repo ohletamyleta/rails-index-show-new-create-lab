@@ -4,3 +4,4 @@ Rails.application.routes.draw do
   get '/coupon/:id', to: 'coupons#show', as: 'coupon'
 
 end
+
